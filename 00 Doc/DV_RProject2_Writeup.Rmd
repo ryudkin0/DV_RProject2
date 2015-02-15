@@ -10,7 +10,6 @@ output: html_document
 ```{r}
 
 source("../01 Data/Load_Packages.R", echo = TRUE)
-
 source("../01 Data/Load_Data.R", echo = TRUE)
 
 
@@ -30,6 +29,7 @@ tbl_df(df)
 ###Chart 1
 This chart shows the amount of loans by type. Fix signifies a fixed rate loan and ARM signifies an adjustable rate mortgate.
 ```{r}
+
 source("../02 Data Wrangling/DataWrangling1 - chart.R", echo = TRUE)
 source("../03 Visualizations/DataWrangling1 - visualization.R", echo = TRUE)
 
